@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
   res.json([
     {
       "id": "1",
-      "name": "Jane Doe",
-      "gender": "male",
+      "name": "John Doe",
+      "gender": "Male",
       "age": 38
     }
   ])
