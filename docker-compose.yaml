@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  backend_img:
+  backend:
     build: ./backend
     container_name: backend_c
     ports:
@@ -8,7 +8,7 @@ services:
     volumes:
       - ./backend:/app
       - /app/node_modules
-  frontend_img:
+  frontend:
     build: ./frontend
     container_name: frontend_c
     ports:
